@@ -1,4 +1,4 @@
-﻿[project]
+[project]
 name = "applied-software-engineering"
 version = "0.1.0"
 description = "ASE practice: kitchen prep-time API"

@@ -1,4 +1,4 @@
-﻿# Applied Software Engineering practice
+# Applied Software Engineering practice
 
 Atoms ASE-style drills (FP + API), starting with kitchen prep-time estimation.
 
