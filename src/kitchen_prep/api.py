@@ -36,4 +36,6 @@ def estimate_prep_time(raw: dict[str, Any]) -> dict[str, Any]:
           "breakdown": {"items": 16, "load_penalty": 3},
         }
     """
-    raise NotImplementedError("Implement estimate_prep_time for ASE practice")
+    order_id = raw.get("order_id")
+    if not order_id:
+        raise ValueError("Missing order_id")

@@ -2,15 +2,18 @@
 
 Atoms ASE-style drills (FP + API), starting with kitchen prep-time estimation.
 
-## Kitchen prep-time API
-
-Implement `estimate_prep_time` in `src/kitchen_prep/api.py`.
+## Setup (uv)
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-pytest -q
+cd C:\Users\yiweichen\VSCode_Projects\applied-software-engineering
+uv sync --group dev
 ```
 
-Rules are in the docstring of `estimate_prep_time` and mirrored by tests.
+## Run tests
+
+```bash
+uv run pytest -q
+```
+
+Implement `estimate_prep_time` in `src/kitchen_prep/api.py`.
+Rules are in that function docstring and mirrored by tests.
