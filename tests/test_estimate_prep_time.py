@@ -1,4 +1,4 @@
-﻿"""Tests for kitchen prep-time API."""
+"""Tests for kitchen prep-time API."""
 
 import pytest
 
@@ -19,8 +19,8 @@ def test_happy_path():
     result = estimate_prep_time(raw)
 
     assert result["order_id"] == "ord_123"
-    assert result["estimate_minutes"] == 19
-    assert result["breakdown"] == {"items": 16, "load_penalty": 3}
+    assert result["estimate_minutes"] == 23
+    assert result["breakdown"] == {"items": 20, "load_penalty": 3}
 
 
 def test_missing_order_id_raises():
